@@ -1,0 +1,29 @@
+/* BASIC STYLES HERE */
+
+body{
+  background-size: cover;
+  background-position: center;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-shadow{
+  color: whitesmoke;
+  text-shadow: 1px 1px 4px black;
+}
+
+.dark-card{
+  padding: 1em;
+  transition: 1s ease-in-out;
+}
+
+.dark-card:hover{
+  background-color: rgba(0, 0, 0, 0.662);
+  border-radius: 1em;
+  border-style: dotted;
+  border-width: 1em;
+}
